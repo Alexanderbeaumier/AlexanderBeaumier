@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander Beaumier - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Alexander Beaumier</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certifications">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#volunteering">Volunteering</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid d-flex align-items-center justify-content-center">
+            <div class="text-center text-white">
+                <h1 class="display-4">Hi, I'm Alexander Beaumier</h1>
+                <p class="lead">Cloud Engineer & Web Developer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <img src="images/profile-pic.jpeg" class="img-fluid rounded-circle" alt="Alexander Beaumier">
+                </div>
+                <div class="col-lg-8">
+                    <h2>About Me</h2>
+                    <p>I am a Cloud Engineer with hands-on experience in implementing and managing AWS cloud infrastructure, DevOps processes, and security protocols. I am passionate about leveraging cloud computing to deliver scalable and efficient solutions. Currently pursuing AWS certifications to deepen my expertise in cloud architecture and AI services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Services</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="service-box shadow-sm p-4 rounded">
+                        <i class="fas fa-cloud fa-3x mb-3"></i>
+                        <h4>Cloud Architecture</h4>
+                        <p>Design and implement scalable cloud infrastructure using AWS services like EC2, S3, Lambda, and VPC.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box shadow-sm p-4 rounded">
+                        <i class="fas fa-cogs fa-3x mb-3"></i>
+                        <h4>DevOps & Automation</h4>
+                        <p>Automate deployments, manage CI/CD pipelines, and streamline infrastructure with Docker, Terraform, and CloudFormation.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box shadow-sm p-4 rounded">
+                        <i class="fas fa-shield-alt fa-3x mb-3"></i>
+                        <h4>Security & Compliance</h4>
+                        <p>Ensure cloud environments are secure and compliant with industry standards using IAM, OKTA, and security protocols.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center mt-4">
+                <div class="col-md-4">
+                    <div class="service-box shadow-sm p-4 rounded">
+                        <i class="fas fa-database fa-3x mb-3"></i>
+                        <h4>Database Management</h4>
+                        <p>Manage and optimize databases with Amazon RDS, DynamoDB, and PostgreSQL for reliable and scalable data storage.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box shadow-sm p-4 rounded">
+                        <i class="fas fa-code fa-3x mb-3"></i>
+                        <h4>Web Development</h4>
+                        <p>Develop responsive and dynamic websites using HTML, CSS, JavaScript, React, Node.js, and Python.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box shadow-sm p-4 rounded">
+                        <i class="fas fa-brain fa-3x mb-3"></i>
+                        <h4>AI Tools Integration</h4>
+                        <p>Implement AI solutions with AWS Textract, Amazon LEX, and Sagemaker to automate processes and enhance user experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Experience</h2>
+            <div class="row">
+                <div class="col-lg-12 mb-4">
+                    <div class="experience-box p-4 shadow-sm rounded">
+                        <h3 class="h5">Deloitte - Cloud Engineer Apprentice</h3>
+                        <p><strong>January 2024 - Present | Gilbert, Arizona</strong></p>
+                        <ul class="list-unstyled mb-4 experience-list">
+                            <li>- Managed cloud infrastructure across multiple environments using AWS and ServiceNow.</li>
+                            <li>- Gained hands-on experience with AWS WorkSpaces, Active Directory, and RDS snapshots.</li>
+                            <li>- Collaborated with cross-functional teams in daily stand-ups to ensure smooth project execution.</li>
+                        </ul>
+
+                        <p><strong>Project Experience:</strong></p>
+
+                        <div class="project-experience">
+                            <h4 class="h6">State POD Project</h4>
+                            <ul class="list-unstyled mb-4 experience-list">
+                                <li>- Addressed cloud infrastructure issues using ServiceNow across multiple environments.</li>
+                                <li>- Supported operations with Amazon WorkSpaces, Active Directory, and RDS snapshots.</li>
+                                <li>- Enhanced cloud networking skills by shadowing VPC, subnets, and security groups configurations.</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-experience">
+                            <h4 class="h6">Fed RAMP Project</h4>
+                            <ul class="list-unstyled mb-4 experience-list">
+                                <li>- Managed and provisioned over 300+ Amazon WorkSpaces, ensuring effective resource allocation.</li>
+                                <li>- Handled Active Directory services and user password resets to maintain seamless operations.</li>
+                                <li>- Conducted RDS backups and snapshots to enhance data protection and recovery processes.</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-experience">
+                            <h4 class="h6">Database Optimization for Disaster Recovery</h4>
+                            <ul class="list-unstyled mb-4 experience-list">
+                                <li>- Analyzed cloud database infrastructure to ensure parity between primary and standby servers.</li>
+                                <li>- Resolved discrepancies in resource provisioning, leading to improved disaster recovery readiness.</li>
+                                <li>- Documented standardized resource provisioning processes to ensure system reliability.</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-experience">
+                            <h4 class="h6">Policy Engine Cloud Automation Project</h4>
+                            <ul class="list-unstyled mb-0 experience-list">
+                                <li>- Implemented a cloud-based policy engine supporting regulatory compliance and security workflows.</li>
+                                <li>- Automated workflows using AWS Lambda for API integration, database operations, and S3 storage.</li>
+                                <li>- Deployed and managed AWS Textract for document processing and Vector DB for data storage.</li>
+                                <li>- Assisted in configuring VPCs, subnets, and security groups with CloudFormation templates.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="experience-box p-4 shadow-sm rounded">
+                        <h3 class="h5">Multiverse - Software Engineering Apprentice</h3>
+                        <p><strong>Virtual | Completed April 2025</strong></p>
+                        <ul class="list-unstyled experience-list">
+                            <li>- Built and deployed cloud-based applications using AWS, Docker, and Terraform.</li>
+                            <li>- Managed data pipelines and optimized cloud storage with PostgreSQL and S3.</li>
+                            <li>- Developed backend services and integrated them into cloud infrastructure environments.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="experience-box p-4 shadow-sm rounded">
+                        <h3 class="h5">Expeditors - Transportation Planner</h3>
+                        <p><strong>July 2022 – June 2023 | Phoenix, Arizona</strong></p>
+                        <ul class="list-unstyled experience-list">
+                            <li>- Coordinated logistics operations, reducing costs and improving customer satisfaction.</li>
+                            <li>- Automated data processing tasks, enhancing efficiency by 10%.</li>
+                            <li>- Optimized transportation resource utilization, reducing operational costs by 10%.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Certifications</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="certification-box p-4 shadow-sm rounded">
+                        <ul class="list-unstyled experience-list">
+                            <li><strong>Google Cyber Security Professional Certificate</strong> (Coursera)</li>
+                            <li><strong>AWS Cloud Practitioner (Foundational)</strong> | July 2024 - July 2027</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="certification-box p-4 shadow-sm rounded">
+                        <ul class="list-unstyled experience-list">
+                            <li><strong>AWS AI Practitioner</strong> | In Progress (Expected completion: 2024)</li>
+                            <li><strong>AWS Solutions Architect</strong> | In Progress (Expected completion: 2025)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Volunteering Section -->
+    <section id="volunteering" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Volunteering</h2>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-unstyled experience-list">
+                        <li><strong>Braven - Professional Skills Mentor:</strong> Mentored students to develop key professional skills and build confidence in their career paths.</li>
+                        <li><strong>Coding/Deployment Tutor:</strong> Taught software development lifecycle concepts, with a focus on JavaScript and its libraries. Guided students in CI/CD processes, utilizing GitHub Actions for streamlined deployment.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact Me</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>If you have any questions or would like to work together, please fill out the form and I'll get back to you as soon as possible.</p>
+                </div>
+                <div class="col-lg-6">
+                    <form id="contactForm" action="mailto:Alexanderbeaumier3@gmail.com" method="POST" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" name="Name" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" name="Email" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" name="Subject" placeholder="Subject" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" name="Message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer" class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="mb-0">&copy; 2024 Alexander Beaumier. All Rights Reserved.</p>
+                    <a href="https://www.linkedin.com/in/alexander-beaumier-540634194/" target="_blank" class="linkedin-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
