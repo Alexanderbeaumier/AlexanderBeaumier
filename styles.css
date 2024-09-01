@@ -92,6 +92,17 @@ a:hover {
     color: #007bff;
 }
 
+/* Projects Section */
+#projects .project-box {
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#projects .project-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
 /* Certifications Section */
 .certification-box {
     background-color: #f8f9fa;
@@ -153,4 +164,12 @@ a:hover {
 #footer .social-icons a:hover {
     color: #007bff;
     transform: scale(1.2);
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 576px) {
+    #about .about-img {
+        width: 50% !important;
+        max-width: 120px !important;
+    }
 }
