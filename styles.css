@@ -154,3 +154,11 @@ a:hover {
     color: #007bff;
     transform: scale(1.2);
 }
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 576px) {
+    .about-img {
+        width: 60%;
+        max-width: 150px;
+    }
+}
