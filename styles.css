@@ -103,6 +103,11 @@ a:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+#projects i {
+    font-size: 60px;
+    color: #007bff;
+}
+
 /* Certifications Section */
 .certification-box {
     background-color: #f8f9fa;
