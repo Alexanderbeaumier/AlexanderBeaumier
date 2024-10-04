@@ -42,11 +42,14 @@ a:hover {
     margin-bottom: 20px;
 }
 
+/* General Styles for About Image */
 .about-img {
-    width: 80%;
-    max-width: 200px;
+    width: 100%;
+    max-width: 250px; /* Larger size for desktop */
     margin: 0 auto;
     display: block;
+    border-radius: 50%; /* Circular image */
+    object-fit: cover;
 }
 
 /* Services Section */
@@ -171,10 +174,18 @@ a:hover {
     transform: scale(1.2);
 }
 
-/* Media Queries for Mobile Devices */
+/* Media Query to Hide Photo on Mobile Devices */
 @media (max-width: 576px) {
-    #about .about-img {
-        width: 50% !important;
-        max-width: 120px !important;
+    /* Hide the photo on mobile */
+    .about-img {
+        display: none; /* Hide the image completely on mobile */
+    }
+
+    .project-box {
+        margin-bottom: 20px;
+    }
+
+    #projects i {
+        font-size: 48px; /* Reduce icon size for mobile */
     }
 }
